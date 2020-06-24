@@ -1,10 +1,16 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#Geospatial
 
-## Available Scripts
+## `Introduction`
 
-In the project directory, you can run:
+Visualize geospatial point on the Germany map.
 
-### `Run app`
+## `Technologies`
+
+- HTML/CSS
+- ReactJS
+- MaterialJS
+
+## `Run app`
 
 To launch the app, use 'npm start'.<br />
 That will open [http://localhost:3000](http://localhost:3000) and then you will view it in the browser.

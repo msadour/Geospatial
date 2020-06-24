@@ -32,8 +32,19 @@ class FormZoom extends React.Component {
             <tbody>
               <tr>
                 <th> Zoom : </th>
-                <th> <Button name='plus' variant="contained" color="primary" disableElevation onClick={e => this.onClick(e)}>+</Button> </th>
-                <th> <Button name='minus' variant="contained" color="primary" disableElevation onClick={e => this.onClick(e)}>-</Button>  </th>
+                <th> <Button 
+                        name='plus'
+                        variant="contained"
+                        color="primary"
+                        disableElevation
+                        onClick={e => this.onClick(e)}
+                    >+</Button> </th>
+                <th> <Button
+                        name='minus'
+                        variant="contained"
+                        color="primary"
+                        disableElevation onClick={e => this.onClick(e)}
+                     >-</Button>  </th>
               </tr>
             </tbody>
           </table>
@@ -42,7 +53,6 @@ class FormZoom extends React.Component {
       </div>
     )
   }
-
 }
 
 export default FormZoom;
