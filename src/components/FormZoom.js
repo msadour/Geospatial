@@ -1,5 +1,6 @@
 import React from 'react';
 
+import mapboxgl from 'mapbox-gl';
 import Button from '@material-ui/core/Button';
 import FormControl from '@material-ui/core/FormControl';
 
@@ -32,7 +33,7 @@ class FormZoom extends React.Component {
             <tbody>
               <tr>
                 <th> Zoom : </th>
-                <th> <Button 
+                <th> <Button
                         name='plus'
                         variant="contained"
                         color="primary"

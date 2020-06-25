@@ -109,8 +109,8 @@ class Map extends React.Component {
     }
 
     quakeID = null;
-    name_1.value = 'Lander';
-    name_2.value = 'Stadt';
+    name_1.value = '';
+    name_2.value = '';
 
     map.getCanvas().style.cursor = '';
   });

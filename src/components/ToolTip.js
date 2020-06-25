@@ -15,8 +15,11 @@ class ToolTip extends React.Component {
                 <div>
                   <TextField
                     id="name_1"
-                    value="Lander"
+                    placeholder="Lander"
                     style = {{width: 300}}
+                    InputProps={{
+                      readOnly: true,
+                    }}
                   />
                 </div>
               </th>
@@ -24,8 +27,11 @@ class ToolTip extends React.Component {
                 <div>
                   <TextField
                     id="name_2"
-                    value="Stadt"
+                    placeholder="Stadt"
                     style = {{width: 300}}
+                    InputProps={{
+                      readOnly: true,
+                    }}
                   />
                 </div>
               </th>
